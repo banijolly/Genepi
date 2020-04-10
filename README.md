@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="300" src="https://github.com/banijolly/vslab-ncov2019-genome/blob/master/docs/genepi_logo.png">
+  <img width="300"  src="https://github.com/banijolly/vslab-ncov2019-genome/blob/master/docs/genepi_logo.png">
 </p>
 
 ## About
