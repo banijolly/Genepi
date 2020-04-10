@@ -8,10 +8,10 @@ More information about out the lab and our work on COVID-19 can be found at the 
 ### Installation
 To use conda, download and install the [latest version of Anaconda](https://www.anaconda.com/distribution/).
 
-Create and activate the covid19-genome conda environment:
+Create and activate the covid19-genepi conda environment:
 ```bash
 conda env create -f covid19-environment.yml
-conda activate covid19-genome
+conda activate covid19-genepi
 ```
 ### Update Krona Taxonomy
 Krona taxonomy databases will have to be manually updated before Krona can generate taxonomic report. The following code assumes Anaconda is installed in the home directory. The path can be updated according to your installation. 
