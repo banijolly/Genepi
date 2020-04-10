@@ -67,7 +67,8 @@ For unpaired reads,
 hisat2 -x <NC_045512.2_viral_reference_genome> -U <unmapped.fq> -S <covid.sam> -p 16 --dta-cufflinks --summary-file <unmapped.log>
 ```
 For paired reads,
-```bash hisat2 -x <NC_045512.2_viral_reference_genome> -1 <unmapped_1.fq> -2 <unmapped_2.fq> -S <covid.sam> -p 16 --dta-cufflinks --summary-file <unmapped.log>
+```bash 
+hisat2 -x <NC_045512.2_viral_reference_genome> -1 <unmapped_1.fq> -2 <unmapped_2.fq> -S <covid.sam> -p 16 --dta-cufflinks --summary-file <unmapped.log>
 ```
 #### Evaluation of Alignment statistics to the viral reference genome
 ```bash 
