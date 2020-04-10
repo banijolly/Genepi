@@ -43,9 +43,3 @@ The RNA sequencing data of 14 patients infected with SARS-CoV-2 sequenced by Uni
 
 ### Download Reference Dataset for Phylogenetic Analysis
 The [Global Initiative on Sharing All Influenza Data (GISAID)](https://www.gisaid.org/) gives public access to the most complete repository of sequencing data for SARS-CoV2. The sequences for phylogenetic analysis can be downloaded from the [EpiCoV portal](https://www.epicov.org/epi3/) after creating an account and signing in.
-
-
-## Analysis Steps
-
-
-
