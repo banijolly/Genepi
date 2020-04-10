@@ -34,6 +34,18 @@ Install [MEGAX](https://www.megasoftware.net/) Command-Line Interface for analyz
 wget https://www.megasoftware.net/do_force_download/megacc_10.1.1_amd64_beta.tar.gz
 tar -zxvf megacc_10.1.1_amd64_beta.tar.gz
 ```
+### Download Reference Genomes
+The latest version of the human genome can be downloaded from [GENCODE]https://www.gencodegenes.org/human/ 
+SARS-CoV2 genome can be downloaded from NCBI accession number [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2)
+
+### Download the test dataset
+The RNA sequencing data of 14 patients infected with SARS-CoV-2 sequenced by University of Washington can be download from [SRA repository](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP251618).
+
+### Download Reference Dataset for Phylogenetic Analysis
+The [Global Initiative on Sharing All Influenza Data (GISAID)](https://www.gisaid.org/) gives public access to the most complete repository of sequencing data for SARS-CoV2. The sequences for phylogenetic analysis can be downloaded from the [EpiCoV portal](https://www.epicov.org/epi3/) after creating an account and signing in.
+
+
+## Analysis Steps
 
 
 
