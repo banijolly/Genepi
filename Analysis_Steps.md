@@ -32,7 +32,7 @@ For paired reads:
 ``` bash kraken2 --db minikraken_8GB_20200312 --threads 16 --report <file.kreport> --paired <file1.fastq> <file2.fastq> > <trimmed.kraken>
 ktImportTaxonomy -s 3 -t 4 -o <visualization_output>.html <trimmed.kraken>
 ```
-![](docs/Krona_output.png | width = 100px) 
+<img src="https://github.com/banijolly/vslab-ncov2019-genome/blob/master/docs/Krona_output.png" align="center" height="100" width="48" >
 
 
 
