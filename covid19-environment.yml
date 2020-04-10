@@ -1,0 +1,25 @@
+name: covid19-genome
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3
+  - fastqc
+  - trimmomatic
+  - samtools=1.10
+  - hisat2
+  - biopython=1.74
+  - bedtools
+  - seqtk=1.3
+  - bcftools=1.10
+  - varscan
+  - megahit
+  - spades
+  - mafft
+  - kraken2
+  - krona
+  - git
+  - quast
+  - snakemake-minimal=5.8.1
+  - pip
