@@ -22,4 +22,4 @@ dependencies:
   - git
   - quast
   - snakemake-minimal=5.8.1
-  - pip 
+  - pip
