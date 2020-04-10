@@ -1,4 +1,4 @@
-name: covid19-genome
+name: covid19-genepi
 channels:
   - conda-forge
   - bioconda
@@ -16,6 +16,7 @@ dependencies:
   - varscan
   - megahit
   - spades
+  - picard
   - mafft
   - kraken2
   - krona
