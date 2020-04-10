@@ -30,7 +30,8 @@ For paired reads:
 ``` bash kraken2 --db minikraken_8GB_20200312 --threads 16 --report <file.kreport> --paired <file1.fastq> <file2.fastq> > <trimmed.kraken>
 ktImportTaxonomy -s 3 -t 4 -o <visualization_output>.html <trimmed.kraken>
 ```
-<img src="https://github.com/banijolly/vslab-ncov2019-genome/blob/master/docs/Krona_output.png" height="350">
+<p align="center"> <img src="https://github.com/banijolly/vslab-ncov2019-genome/blob/master/docs/Krona_output.png" height="350"> 
+</p>
 
 ## Reference based assembly
 
@@ -123,5 +124,5 @@ mafft --thread 4 <gisaid_cov2020_sequences.fasta> > <gisaid_cov2020_sequences_MS
 ```bash
 megacc -a <infer_NJ_nucleotide.mao> -d <gisaid_cov2020_sequences_MSA.fasta> -o <gisaid_cov2020_tree>
 ```
-<img src="https://github.com/banijolly/vslab-ncov2019-genome/blob/master/docs/MEGA_output.png" height="300">
-
+<p align="center"><img src="https://github.com/banijolly/vslab-ncov2019-genome/blob/master/docs/MEGA_output.png" height="300">
+</p>
