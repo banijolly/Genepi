@@ -6,7 +6,7 @@ More information about out the lab and our work on COVID-19 can be found at the 
 ## Quickstart
 
 ### Installation
-To use conda, download and install the [latest version of Anaconda] (https://www.anaconda.com/distribution/).
+To use conda, download and install the [latest version of Anaconda](https://www.anaconda.com/distribution/).
 
 Create and activate the covid19-genome conda environment:
 ```bash
@@ -15,7 +15,7 @@ conda activate covid19-genome
 ```
 
 ### Set up Minikraken database
-The Minikraken database having complete bacterial, archaeal, and viral genomes in RefSeq is available for download at the [Kraken website] (https://ccb.jhu.edu/software/kraken2/index.shtml?t=downloads). 
+The Minikraken database having complete bacterial, archaeal, and viral genomes in RefSeq is available for download at the [Kraken website](https://ccb.jhu.edu/software/kraken2/index.shtml?t=downloads). 
 ```bash
 wget ftp://ftp.ccb.jhu.edu/pub/data/kraken2_dbs/minikraken_8GB_202003.tgz
 tar -xvf minikraken_8GB_202003.tgz
@@ -23,7 +23,7 @@ export KRAKEN2_DB_PATH="<path/to/folder/containing/minikraken/database>"
 ```
 
 ### Install MEGAX
-Install [MEGAX] (https://www.megasoftware.net/) Command-Line Interface for analyze molecular evolution and generate phylogenetic trees:
+Install [MEGAX](https://www.megasoftware.net/) Command-Line Interface for analyze molecular evolution and generate phylogenetic trees:
 ```bash
 wget https://www.megasoftware.net/do_force_download/megacc_10.1.1_amd64_beta.tar.gz
 tar -zxvf megacc_10.1.1_amd64_beta.tar.gz
