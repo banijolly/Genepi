@@ -13,6 +13,12 @@ Create and activate the covid19-genome conda environment:
 conda env create -f covid19-environment.yml
 conda activate covid19-genome
 ```
+### Update Krona Taxonomy
+Krona taxonomy databases will have to be manually updated before Krona can generate taxonomic report. The following code assumes Anaconda is installed in the home directory. The path can be updated according to your installation. 
+```bash
+bash ~/anaconda3/envs/covid19-genome/opt/krona/updateTaxonomy.sh 
+bash ~/anaconda3/envs/covid19-genome/opt/krona/updateAccessions.sh
+```
 
 ### Set up Minikraken database
 The Minikraken database having complete bacterial, archaeal, and viral genomes in RefSeq is available for download at the [Kraken website](https://ccb.jhu.edu/software/kraken2/index.shtml?t=downloads). 
