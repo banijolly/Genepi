@@ -13,11 +13,11 @@ fastqc <fastq file>
 If the quality of the reads are not satisfactory, use Trimmomatic to remove bad quality reads and adapters.
 For unpaired reads:
 ``` bash 
-trimmomatic SE <input.fastq> <output.fastq>  ILLUMINACLIP:~anaconda3/envs/covid19-genome/share/trimmomatic/adapters/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:30 MINLEN:100 
+trimmomatic SE <input.fastq> <output.fastq>  ILLUMINACLIP:~anaconda3/envs/covid19-genepi/share/trimmomatic/adapters/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:30 MINLEN:100 
 ```
 For paired reads:
 ``` bash 
-trimmomatic PE <input_fwd.fastq> <input_rev.fastq> <output_fwd_paired.fastq> <output_fwd_unpaired.fastq> <output_rev_paired.fastq> <output_rev_unpaired.fastq> ILLUMINACLIP:~anaconda3/envs/covid19-genome/share/trimmomatic/adapters/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:30 MINLEN:100 
+trimmomatic PE <input_fwd.fastq> <input_rev.fastq> <output_fwd_paired.fastq> <output_fwd_unpaired.fastq> <output_rev_paired.fastq> <output_rev_unpaired.fastq> ILLUMINACLIP:~anaconda3/envs/covid19-genepi/share/trimmomatic/adapters/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:30 MINLEN:100 
 ```
 
 ### Analysis of species diversity present in the RNA sample
