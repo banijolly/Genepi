@@ -41,7 +41,7 @@ wget https://www.megasoftware.net/do_force_download/megacc_10.1.1_amd64_beta.tar
 tar -zxvf megacc_10.1.1_amd64_beta.tar.gz
 ```
 ### Download Reference Genomes
-The latest version of the human genome can be downloaded from [GENCODE]https://www.gencodegenes.org/human/ 
+The latest version of the human genome can be downloaded from [GENCODE](https://www.gencodegenes.org/human/)
 SARS-CoV2 genome can be downloaded from NCBI accession number [NC_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2)
 
 ### Download the test dataset
