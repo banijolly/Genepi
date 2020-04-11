@@ -22,8 +22,8 @@ conda activate covid19-genepi
 ### Update Krona Taxonomy
 Krona taxonomy databases will have to be manually updated before Krona can generate taxonomic report. The following code assumes Anaconda is installed in the home directory. The path can be updated according to your installation. 
 ```bash
-bash ~/anaconda3/envs/covid19-genome/opt/krona/updateTaxonomy.sh 
-bash ~/anaconda3/envs/covid19-genome/opt/krona/updateAccessions.sh
+bash ~/anaconda3/envs/covid19-genepi/opt/krona/updateTaxonomy.sh 
+bash ~/anaconda3/envs/covid19-genepi/opt/krona/updateAccessions.sh
 ```
 
 ### Set up Minikraken database
